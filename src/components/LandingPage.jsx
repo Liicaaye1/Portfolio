@@ -13,7 +13,7 @@ import { SiMongodb } from "react-icons/si";
 import { RiJavascriptLine } from "react-icons/ri";
 import video from "../assets/video.mp4"
 import world from "../assets/world.mp4"
-import pharmacy from "../assets/pharmacy.mp4"
+import Pharmacy from "../assets/Pharmacy.mp4"
 import INTELBREW from "../assets/INTELBREW.mp4"
 import Ecommerce  from "../assets/Ecommerce.mp4"
 import Note   from "../assets/Note.mp4"
@@ -166,7 +166,7 @@ function LandingPage(){
                     </div>
                     <div className=" w-[370px] ml-[-50px] sm:ml-0 h-[330px]">
                         <video controls loop muted>
-                            <source src={pharmacy} type="video/mp4" />
+                            <source src={Pharmacy} type="video/mp4" />
                         </video>
                         
                         <h2 className="text-2xl font-semibold">Medicine center</h2>
